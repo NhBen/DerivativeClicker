@@ -20,15 +20,15 @@ function addMoney(money) {
 }
 
 function addMoneyPerSecond(mps){
-	player.moneyPerSecond = Math.round((player.moneyPerSecond + mps)*100)/100;
+	player.moneyPerSecond = Math.round((player.moneyPerSecond + mps)*1000000000)/100;
 }
 
 function addNetMoneyPerSecond(nmps){
-	player.netMoneyPerSecond = Math.round((player.netMoneyPerSecond + nmps)*100)/100;
+	player.netMoneyPerSecond = Math.round((player.netMoneyPerSecond + nmps)*1000000000)/100;
 }
 
 function addMoneyPerClick(mpc){
-	player.moneyPerClick = Math.round((player.moneyPerClick + mpc)*100)/100;
+	player.moneyPerClick = Math.round((player.moneyPerClick + mpc)*1000000000)/100;
 }
 
 function addProofs(proofs){
