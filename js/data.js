@@ -42,7 +42,7 @@ var startPlayer = {
 	
 	//other tracking variables
 	clickTracker: 0,
-	updateInterval: 1000,
+	updateInterval: 10000000000000,
 	numToBuy: 1,
 	timeMult: 1, //note that the period of updates is updateInterval*timeMult
 	proofCurrPerTick: 0,
